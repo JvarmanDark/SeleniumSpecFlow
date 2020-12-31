@@ -1,0 +1,70 @@
+﻿2020-12-18T17:18:21.1701664+08:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-12-18T17:18:21.1701664+08:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.5.8 in Framework clr40 in x86 mode execution started
+2020-12-18T17:18:21.1701664+08:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\praja\source\repos\Visual2019\packages\SpecRun.Runner.3.5.8\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-12-18T17:18:21.1711643+08:00;VSTestExecutionThread;Info;Current UserName: 'PRAJA', MachineName: 'PC86363'
+2020-12-18T17:18:21.2160752+08:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\praja\source\repos\Visual2019\Visual2019\bin\Debug\Visual2019.dll
+2020-12-18T17:18:21.2170775+08:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\praja\source\repos\Visual2019\TestResults" (default)
+2020-12-18T17:18:21.2170775+08:00;VSTestExecutionThread;Info;Profile: 
+2020-12-18T17:18:21.2549718+08:00;VSTestExecutionThread;Info;Log file path: C:\Users\praja\source\repos\Visual2019\TestResults\Unnamed project__2020-12-18T171821.log
+2020-12-18T17:18:21.2589299+08:00;Thread#13;Info;Checking activation
+2020-12-18T17:18:21.3078015+08:00;Thread#13;Info;Activated.
+2020-12-18T17:18:21.3078015+08:00;Thread#13;Info;Activation check completed
+2020-12-18T17:18:21.3078015+08:00;Thread#13;Info;Starting test run
+2020-12-18T17:18:21.3367540+08:00;Thread#13;Info;Discovering target: Default
+2020-12-18T17:18:21.3377221+08:00;Thread#13;Info;Discovering tests from assembly: C:\Users\praja\source\repos\Visual2019\Visual2019\bin\Debug\Visual2019.dll
+2020-12-18T17:18:21.5851339+08:00;Thread#13;Info;Discovered tests from assembly: C:\Users\praja\source\repos\Visual2019\Visual2019\bin\Debug\Visual2019.dll
+2020-12-18T17:18:21.5861305+08:00:Test Suite Dump
+2020-12-18T17:18:21.5871590+08:00:#0: Unnamed project/ - 
+2020-12-18T17:18:21.5871590+08:00:#1: Default - 
+2020-12-18T17:18:21.5871590+08:00:#2: Visual2019 - 
+2020-12-18T17:18:21.5871590+08:00:#3: Google Search - 
+2020-12-18T17:18:21.6120620+08:00:#4: Page Search - TestAssembly:Visual2019/Feature:Google+Search/Scenario:Page+Search
+2020-12-18T17:18:21.6120620+08:00:End: Test Suite Dump
+2020-12-18T17:18:21.6270219+08:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-18T17:18:21.6280195+08:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-12-18T17:18:21.6280195+08:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-12-18T17:18:21.6310426+08:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-12-18T17:18:21.6310426+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-12-18T17:18:21.6310426+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-12-18T17:18:21.6310426+08:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-12-18T17:18:21.6320084+08:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-12-18T17:18:21.6330065+08:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-12-18T17:18:21.6350318+08:00:Thread #0: creating new test thread executor for Visual2019, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-12-18T17:18:21.6359985+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-12-18T17:18:21.6379933+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-12-18T17:18:21.6389908+08:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2020-12-18T17:18:21.7885922+08:00:Thread#0:T:-> Loading plugin C:\Users\praja\source\repos\Visual2019\Visual2019\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-12-18T17:18:21.7935795+08:00:Thread#0:T:-> Using default config
+2020-12-18T17:18:22.1188260+08:00:Thread#0: Test #4/0 is started on thread #0
+2020-12-18T17:18:22.1387416+08:00:Thread#0:B:Given That I am on the Google Search Page
+2020-12-18T17:19:12.5425074+08:00:Thread#0:T:done: DecafyingLibrariySteps.GivenThatIAmOnTheGoogleSearchPage() (50.3s)
+2020-12-18T17:19:12.5434738+08:00:Thread#0:B:When I Search for Edgewords
+2020-12-18T17:19:13.4625503+08:00:Thread#0:T:done: DecafyingLibrariySteps.WhenISearchForEdgewords() (0.9s)
+2020-12-18T17:19:13.4625503+08:00:Thread#0:B:Then I expect to see Edgewords on the first page
+2020-12-18T17:19:13.4635473+08:00:Thread#0:T:done: DecafyingLibrariySteps.ThenIExpectToSeeEdgewordsOnTheFirstPage() (0.0s)
+2020-12-18T17:19:13.4715259+08:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-18T17:19:13.4725228+08:00:Thread#:Scheduler: at the end of normal test queue
+2020-12-18T17:19:13.4725228+08:00:Thread#0:Scheduler: enumerator for thread is at end
+2020-12-18T17:19:13.4725228+08:00:Thread#0:Scheduler: No more tests for thread
+2020-12-18T17:19:13.4814999+08:00:Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 51.3617078 seconds
+2020-12-18T17:19:13.5094747+08:00:Trying to cancel thread
+2020-12-18T17:19:13.5094747+08:00:Thread cancelled
+2020-12-18T17:19:13.5134153+08:00:Thread#-1:Scheduler: get next test for thread -1
+2020-12-18T17:19:13.5134153+08:00:Thread#:Scheduler: at the end of normal test queue
+2020-12-18T17:19:13.5144112+08:00:Thread#-1:Scheduler: enumerator for thread is at end
+2020-12-18T17:19:13.5154086+08:00;Thread#13;Info;test run finished
+2020-12-18T17:19:13.5154086+08:00;Thread#13;Info;publishing test results
+2020-12-18T17:19:13.5194305+08:00;Thread#13;Info;test results published
+2020-12-18T17:19:13.5194305+08:00;Thread#13;Info;generating reports
+2020-12-18T17:19:13.5971920+08:00;Thread#13;Info;Starting external report generation process
+2020-12-18T17:19:14.6195147+08:00;Thread#13;Info;Successfully generated reports.
+2020-12-18T17:19:14.6205120+08:00;Thread#13;Info;Successfully generated reports
+2020-12-18T17:19:14.6264960+08:00:Total: 1
+2020-12-18T17:19:14.6284906+08:00:Succeeded: 1
+2020-12-18T17:19:14.6284906+08:00:Ignored: 0
+2020-12-18T17:19:14.6284906+08:00:Pending: 0
+2020-12-18T17:19:14.6284906+08:00:Skipped: 0
+2020-12-18T17:19:14.6294879+08:00:Failed: 0
+2020-12-18T17:19:14.6364693+08:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2020-12-18T17:19:14.6374668+08:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\praja\source\repos\Visual2019\TestResults\Unnamed project__2020-12-18T171821.html'
+========== End of log file ==========

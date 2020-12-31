@@ -1,0 +1,39 @@
+﻿2020-12-31T15:27:36.9355933+08:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-12-31T15:27:36.9365908+08:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.5.8 in Framework clr40 in x86 mode execution started
+2020-12-31T15:27:36.9365908+08:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\praja\source\repos\Selenium SpecFlow\packages\SpecRun.Runner.3.5.8\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-12-31T15:27:36.9365908+08:00;VSTestExecutionThread;Info;Current UserName: 'PRAJA', MachineName: 'PC86363'
+2020-12-31T15:27:36.9675077+08:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\praja\source\repos\Selenium SpecFlow\Visual2019\bin\Debug\Visual2019.dll
+2020-12-31T15:27:36.9675077+08:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\praja\source\repos\Selenium SpecFlow\TestResults" (default)
+2020-12-31T15:27:36.9675077+08:00;VSTestExecutionThread;Info;Profile: 
+2020-12-31T15:27:37.0063892+08:00;VSTestExecutionThread;Info;Log file path: C:\Users\praja\source\repos\Selenium SpecFlow\TestResults\Unnamed project__2020-12-31T152736.log
+2020-12-31T15:27:37.0113755+08:00;Thread#13;Info;Checking activation
+2020-12-31T15:27:37.0582516+08:00;Thread#13;Info;Activated.
+2020-12-31T15:27:37.0582516+08:00;Thread#13;Info;Activation check completed
+2020-12-31T15:27:37.0582516+08:00;Thread#13;Info;Starting test run
+2020-12-31T15:27:37.0881392+08:00;Thread#13;Info;Discovering target: Default
+2020-12-31T15:27:37.0891361+08:00;Thread#13;Info;Discovering tests from assembly: C:\Users\praja\source\repos\Selenium SpecFlow\Visual2019\bin\Debug\Visual2019.dll
+2020-12-31T15:27:37.3334807+08:00;Thread#13;Info;Discovered tests from assembly: C:\Users\praja\source\repos\Selenium SpecFlow\Visual2019\bin\Debug\Visual2019.dll
+2020-12-31T15:27:37.3344781+08:00:Test Suite Dump
+2020-12-31T15:27:37.3354755+08:00:#0: Unnamed project/ - 
+2020-12-31T15:27:37.3354755+08:00:#1: Default - 
+2020-12-31T15:27:37.3354755+08:00:#2: Visual2019 - 
+2020-12-31T15:27:37.3354755+08:00:#3: Launch Team's Site - 
+2020-12-31T15:27:37.3634006+08:00:#4: Page Search - TestAssembly:Visual2019/Feature:Launch+Team%27s+Site/Scenario:Page+Search
+2020-12-31T15:27:37.3634006+08:00:End: Test Suite Dump
+2020-12-31T15:27:37.3793594+08:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-31T15:27:37.3803568+08:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-12-31T15:27:37.3803568+08:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-12-31T15:27:37.3833490+08:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-12-31T15:27:37.3833490+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-12-31T15:27:37.3833490+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-12-31T15:27:37.3833490+08:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-12-31T15:27:37.3843461+08:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-12-31T15:27:37.3853437+08:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-12-31T15:27:37.3873380+08:00:Thread #0: creating new test thread executor for Visual2019, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-12-31T15:27:37.3883354+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-12-31T15:27:37.3903299+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-12-31T15:27:37.3913281+08:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2020-12-31T15:27:37.5479062+08:00:Thread#0:T:-> Loading plugin C:\Users\praja\source\repos\Selenium SpecFlow\Visual2019\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-12-31T15:27:37.5528930+08:00:Thread#0:T:-> Using default config
+2020-12-31T15:27:37.8770579+08:00:Thread#0: Test #4/0 is started on thread #0
+2020-12-31T15:27:37.8969783+08:00:Thread#0:B:Given That I am on the Google Search Page

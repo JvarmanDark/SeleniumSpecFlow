@@ -1,0 +1,59 @@
+﻿2020-12-31T15:41:51.7810357+08:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-12-31T15:41:51.7810357+08:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.5.8 in Framework clr40 in x86 mode execution started
+2020-12-31T15:41:51.7810357+08:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\praja\source\repos\Selenium SpecFlow\packages\SpecRun.Runner.3.5.8\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-12-31T15:41:51.7810357+08:00;VSTestExecutionThread;Info;Current UserName: 'PRAJA', MachineName: 'PC86363'
+2020-12-31T15:41:51.8149458+08:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\praja\source\repos\Selenium SpecFlow\Visual2019\bin\Debug\Visual2019.dll
+2020-12-31T15:41:51.8149458+08:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\praja\source\repos\Selenium SpecFlow\TestResults" (default)
+2020-12-31T15:41:51.8149458+08:00;VSTestExecutionThread;Info;Profile: 
+2020-12-31T15:41:51.8588277+08:00;VSTestExecutionThread;Info;Log file path: C:\Users\praja\source\repos\Selenium SpecFlow\TestResults\Unnamed project__2020-12-31T154151.log
+2020-12-31T15:41:51.8638147+08:00;Thread#13;Info;Checking activation
+2020-12-31T15:41:51.9166717+08:00;Thread#13;Info;Activated.
+2020-12-31T15:41:51.9166717+08:00;Thread#13;Info;Activation check completed
+2020-12-31T15:41:51.9166717+08:00;Thread#13;Info;Starting test run
+2020-12-31T15:41:51.9575637+08:00;Thread#13;Info;Discovering target: Default
+2020-12-31T15:41:51.9575637+08:00;Thread#13;Info;Discovering tests from assembly: C:\Users\praja\source\repos\Selenium SpecFlow\Visual2019\bin\Debug\Visual2019.dll
+2020-12-31T15:41:52.2129097+08:00;Thread#13;Info;Discovered tests from assembly: C:\Users\praja\source\repos\Selenium SpecFlow\Visual2019\bin\Debug\Visual2019.dll
+2020-12-31T15:41:52.2138762+08:00:Test Suite Dump
+2020-12-31T15:41:52.2158719+08:00:#0: Unnamed project/ - 
+2020-12-31T15:41:52.2158719+08:00:#1: Default - 
+2020-12-31T15:41:52.2158719+08:00:#2: Visual2019 - 
+2020-12-31T15:41:52.2158719+08:00:#3: Launch Team's Site - 
+2020-12-31T15:41:52.2408369+08:00:#4: Launch Team Site - TestAssembly:Visual2019/Feature:Launch+Team%27s+Site/Scenario:Launch+Team+Site
+2020-12-31T15:41:52.2408369+08:00:End: Test Suite Dump
+2020-12-31T15:41:52.2567948+08:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-31T15:41:52.2577894+08:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-12-31T15:41:52.2577894+08:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-12-31T15:41:52.2607817+08:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-12-31T15:41:52.2607817+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-12-31T15:41:52.2607817+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-12-31T15:41:52.2607817+08:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-12-31T15:41:52.2617479+08:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-12-31T15:41:52.2627778+08:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-12-31T15:41:52.2647737+08:00:Thread #0: creating new test thread executor for Visual2019, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-12-31T15:41:52.2657687+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-12-31T15:41:52.2677588+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-12-31T15:41:52.2687292+08:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2020-12-31T15:41:52.4203540+08:00:Thread#0:T:-> Loading plugin C:\Users\praja\source\repos\Selenium SpecFlow\Visual2019\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-12-31T15:41:52.4243455+08:00:Thread#0:T:-> Using default config
+2020-12-31T15:41:52.7385088+08:00:Thread#0: Test #4/0 is started on thread #0
+2020-12-31T15:41:52.7564545+08:00:Thread#0:B:Given I have launched team' site
+2020-12-31T15:43:57.8063799+08:00:Thread#0:T:done: DecafyingLibrariySteps.GivenIHaveLaunchedTeamSite() (125.0s)
+2020-12-31T15:43:57.8143569+08:00:Thread#0:B:And I launched site contents
+2020-12-31T15:44:12.9999623+08:00:Thread#0:T:done: DecafyingLibrariySteps.GivenILaunchedSiteContents() (15.2s)
+2020-12-31T15:44:13.0218628+08:00:Thread#0:B:When I select documents library in site contents
+2020-12-31T15:44:33.1592325+08:00:Thread#0:T:done: DecafyingLibrariySteps.WhenISelectDocumentsLibraryInSiteContents() (20.1s)
+2020-12-31T15:44:33.1642183+08:00:Thread#0:B:Then Document Library is launched
+2020-12-31T15:44:38.2674619+08:00:Thread#0:T:error: Object reference not set to an instance of an object.
+2020-12-31T15:44:38.3164564+08:00:Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+2020-12-31T15:44:38.3194606+08:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-31T15:44:38.3194606+08:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2020-12-31T15:44:38.3194606+08:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-12-31T15:44:38.3194606+08:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-12-31T15:44:38.3194606+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-12-31T15:44:38.3194606+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-12-31T15:44:38.3194606+08:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-12-31T15:44:38.3194606+08:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-12-31T15:44:38.3194606+08:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2020-12-31T15:44:38.3314464+08:00:Thread#0: Test #4/0 is finished on thread #0 as Failed within 165.5929376 seconds
+2020-12-31T15:44:38.3344087+08:00:Thread#0: Test #4/1 is started on thread #0
+2020-12-31T15:44:38.3364247+08:00:Thread#0:B:Given I have launched team' site

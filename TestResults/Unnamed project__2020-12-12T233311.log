@@ -1,0 +1,72 @@
+﻿2020-12-12T23:33:11.8134765+08:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-12-12T23:33:11.8134765+08:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.5.8 in Framework clr40 in x86 mode execution started
+2020-12-12T23:33:11.8134765+08:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\praja\source\repos\Visual2019\packages\SpecRun.Runner.3.5.8\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-12-12T23:33:11.8134765+08:00;VSTestExecutionThread;Info;Current UserName: 'PRAJA', MachineName: 'PC86363'
+2020-12-12T23:33:11.8643406+08:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\praja\source\repos\Visual2019\Visual2019\bin\Debug\Visual2019.dll
+2020-12-12T23:33:11.8643406+08:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\praja\source\repos\Visual2019\TestResults" (default)
+2020-12-12T23:33:11.8643406+08:00;VSTestExecutionThread;Info;Profile: 
+2020-12-12T23:33:11.9356573+08:00;VSTestExecutionThread;Info;Log file path: C:\Users\praja\source\repos\Visual2019\TestResults\Unnamed project__2020-12-12T233311.log
+2020-12-12T23:33:11.9426389+08:00;Thread#13;Info;Checking activation
+2020-12-12T23:33:12.0234224+08:00;Thread#13;Info;Activated.
+2020-12-12T23:33:12.0234224+08:00;Thread#13;Info;Activation check completed
+2020-12-12T23:33:12.0234224+08:00;Thread#13;Info;Starting test run
+2020-12-12T23:33:12.0712947+08:00;Thread#13;Info;Discovering target: Default
+2020-12-12T23:33:12.0712947+08:00;Thread#13;Info;Discovering tests from assembly: C:\Users\praja\source\repos\Visual2019\Visual2019\bin\Debug\Visual2019.dll
+2020-12-12T23:33:12.4831928+08:00;Thread#13;Info;Discovered tests from assembly: C:\Users\praja\source\repos\Visual2019\Visual2019\bin\Debug\Visual2019.dll
+2020-12-12T23:33:12.4841900+08:00:Test Suite Dump
+2020-12-12T23:33:12.4861849+08:00:#0: Unnamed project/ - 
+2020-12-12T23:33:12.4861849+08:00:#1: Default - 
+2020-12-12T23:33:12.4861849+08:00:#2: Visual2019 - 
+2020-12-12T23:33:12.4861849+08:00:#3: SpecFlowFeature1 - 
+2020-12-12T23:33:12.5280727+08:00:#4: Add two numbers - TestAssembly:Visual2019/Feature:SpecFlowFeature1/Scenario:Add+two+numbers
+2020-12-12T23:33:12.5280727+08:00:End: Test Suite Dump
+2020-12-12T23:33:12.5550016+08:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-12T23:33:12.5559987+08:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-12-12T23:33:12.5559987+08:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-12-12T23:33:12.5599874+08:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-12-12T23:33:12.5599874+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-12-12T23:33:12.5599874+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-12-12T23:33:12.5599874+08:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-12-12T23:33:12.5619819+08:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-12-12T23:33:12.5629792+08:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-12-12T23:33:12.5659716+08:00:Thread #0: creating new test thread executor for Visual2019, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-12-12T23:33:12.5679658+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-12-12T23:33:12.5709579+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-12-12T23:33:12.5719554+08:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2020-12-12T23:33:12.8322751+08:00:Thread#0:T:-> Loading plugin C:\Users\praja\source\repos\Visual2019\Visual2019\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-12-12T23:33:12.8402537+08:00:Thread#0:T:-> Using default config
+2020-12-12T23:33:13.3942947+08:00:Thread#0: Test #4/0 is started on thread #0
+2020-12-12T23:33:13.4252121+08:00:Thread#0:B:Given the first number is 50
+2020-12-12T23:34:03.1400435+08:00:Thread#0:T:done: SpecFlowFeature1Steps.GivenTheFirstNumberIs(50) (49.6s)
+2020-12-12T23:34:03.1400435+08:00:Thread#0:B:And the second number is 70
+2020-12-12T23:34:03.1410413+08:00:Thread#0:T:done: SpecFlowFeature1Steps.GivenTheSecondNumberIs(70) (0.0s)
+2020-12-12T23:34:03.1410413+08:00:Thread#0:B:When the two numbers are added
+2020-12-12T23:34:03.1420072+08:00:Thread#0:T:done: SpecFlowFeature1Steps.WhenTheTwoNumbersAreAdded() (0.0s)
+2020-12-12T23:34:03.1420072+08:00:Thread#0:B:Then the result should be 120
+2020-12-12T23:34:03.1420072+08:00:Thread#0:T:done: SpecFlowFeature1Steps.ThenTheResultShouldBe(120) (0.0s)
+2020-12-12T23:34:03.1500170+08:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-12T23:34:03.1500170+08:00:Thread#:Scheduler: at the end of normal test queue
+2020-12-12T23:34:03.1500170+08:00:Thread#0:Scheduler: enumerator for thread is at end
+2020-12-12T23:34:03.1500170+08:00:Thread#0:Scheduler: No more tests for thread
+2020-12-12T23:34:03.1579950+08:00:Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 49.7627031 seconds
+2020-12-12T23:34:03.1749499+08:00:Trying to cancel thread
+2020-12-12T23:34:03.1749499+08:00:Thread cancelled
+2020-12-12T23:34:03.1789397+08:00:Thread#-1:Scheduler: get next test for thread -1
+2020-12-12T23:34:03.1789397+08:00:Thread#:Scheduler: at the end of normal test queue
+2020-12-12T23:34:03.1789397+08:00:Thread#-1:Scheduler: enumerator for thread is at end
+2020-12-12T23:34:03.1799360+08:00;Thread#13;Info;test run finished
+2020-12-12T23:34:03.1799360+08:00;Thread#13;Info;publishing test results
+2020-12-12T23:34:03.1838959+08:00;Thread#13;Info;test results published
+2020-12-12T23:34:03.1838959+08:00;Thread#13;Info;generating reports
+2020-12-12T23:34:03.2557038+08:00;Thread#13;Info;Starting external report generation process
+2020-12-12T23:34:04.2320887+08:00;Thread#13;Info;Successfully generated reports.
+2020-12-12T23:34:04.2340674+08:00;Thread#13;Info;Successfully generated reports
+2020-12-12T23:34:04.2400857+08:00:Total: 1
+2020-12-12T23:34:04.2420774+08:00:Succeeded: 1
+2020-12-12T23:34:04.2420774+08:00:Ignored: 0
+2020-12-12T23:34:04.2430768+08:00:Pending: 0
+2020-12-12T23:34:04.2430768+08:00:Skipped: 0
+2020-12-12T23:34:04.2430768+08:00:Failed: 0
+2020-12-12T23:34:04.2530167+08:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2020-12-12T23:34:04.2530167+08:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\praja\source\repos\Visual2019\TestResults\Unnamed project__2020-12-12T233311.html'
+========== End of log file ==========

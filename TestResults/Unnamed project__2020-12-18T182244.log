@@ -1,0 +1,43 @@
+﻿2020-12-18T18:22:44.3268738+08:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-12-18T18:22:44.3268738+08:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.5.8 in Framework clr40 in x86 mode execution started
+2020-12-18T18:22:44.3268738+08:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\praja\source\repos\Visual2019\packages\SpecRun.Runner.3.5.8\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-12-18T18:22:44.3268738+08:00;VSTestExecutionThread;Info;Current UserName: 'PRAJA', MachineName: 'PC86363'
+2020-12-18T18:22:44.3697591+08:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\praja\source\repos\Visual2019\Visual2019\bin\Debug\Visual2019.dll
+2020-12-18T18:22:44.3707566+08:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\praja\source\repos\Visual2019\TestResults" (default)
+2020-12-18T18:22:44.3707566+08:00;VSTestExecutionThread;Info;Profile: 
+2020-12-18T18:22:44.4146391+08:00;VSTestExecutionThread;Info;Log file path: C:\Users\praja\source\repos\Visual2019\TestResults\Unnamed project__2020-12-18T182244.log
+2020-12-18T18:22:44.4226472+08:00;Thread#15;Info;Checking activation
+2020-12-18T18:22:44.4874448+08:00;Thread#15;Info;Activated.
+2020-12-18T18:22:44.4874448+08:00;Thread#15;Info;Activation check completed
+2020-12-18T18:22:44.4874448+08:00;Thread#15;Info;Starting test run
+2020-12-18T18:22:44.5333230+08:00;Thread#15;Info;Discovering target: Default
+2020-12-18T18:22:44.5343188+08:00;Thread#15;Info;Discovering tests from assembly: C:\Users\praja\source\repos\Visual2019\Visual2019\bin\Debug\Visual2019.dll
+2020-12-18T18:22:44.9601812+08:00;Thread#15;Info;Discovered tests from assembly: C:\Users\praja\source\repos\Visual2019\Visual2019\bin\Debug\Visual2019.dll
+2020-12-18T18:22:44.9611780+08:00:Test Suite Dump
+2020-12-18T18:22:44.9632066+08:00:#0: Unnamed project/ - 
+2020-12-18T18:22:44.9632066+08:00:#1: Default - 
+2020-12-18T18:22:44.9632066+08:00:#2: Visual2019 - 
+2020-12-18T18:22:44.9632066+08:00:#3: Google Search - 
+2020-12-18T18:22:44.9990776+08:00:#4: Page Search - TestAssembly:Visual2019/Feature:Google+Search/Scenario:Page+Search
+2020-12-18T18:22:44.9990776+08:00:End: Test Suite Dump
+2020-12-18T18:22:45.0170287+08:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-18T18:22:45.0190233+08:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-12-18T18:22:45.0190233+08:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-12-18T18:22:45.0220153+08:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-12-18T18:22:45.0220153+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-12-18T18:22:45.0220153+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-12-18T18:22:45.0220153+08:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-12-18T18:22:45.0230126+08:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-12-18T18:22:45.0240100+08:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-12-18T18:22:45.0260047+08:00:Thread #0: creating new test thread executor for Visual2019, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-12-18T18:22:45.0270020+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-12-18T18:22:45.0349821+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-12-18T18:22:45.0359793+08:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2020-12-18T18:22:45.2594079+08:00:Thread#0:T:-> Loading plugin C:\Users\praja\source\repos\Visual2019\Visual2019\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-12-18T18:22:45.2693553+08:00:Thread#0:T:-> Using default config
+2020-12-18T18:22:45.7081834+08:00:Thread#0: Test #4/0 is started on thread #0
+2020-12-18T18:22:45.7361386+08:00:Thread#0:B:Given That I am on the Google Search Page
+2020-12-18T18:22:59.9455567+08:00:Thread#0:T:done: DecafyingLibrariySteps.GivenThatIAmOnTheGoogleSearchPage() (14.1s)
+2020-12-18T18:22:59.9465535+08:00:Thread#0:B:When I Search for Edgewords
+2020-12-18T18:23:00.7618781+08:00:Thread#0:T:done: DecafyingLibrariySteps.WhenISearchForEdgewords() (0.8s)
+2020-12-18T18:23:00.7618781+08:00:Thread#0:B:Then I expect to see Edgewords on the first page

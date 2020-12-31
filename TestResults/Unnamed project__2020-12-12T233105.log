@@ -1,0 +1,114 @@
+﻿2020-12-12T23:31:04.9577404+08:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-12-12T23:31:04.9577404+08:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.5.8 in Framework clr40 in x86 mode execution started
+2020-12-12T23:31:04.9577404+08:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\praja\source\repos\Visual2019\packages\SpecRun.Runner.3.5.8\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-12-12T23:31:04.9577404+08:00;VSTestExecutionThread;Info;Current UserName: 'PRAJA', MachineName: 'PC86363'
+2020-12-12T23:31:05.0006260+08:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\praja\source\repos\Visual2019\Visual2019\bin\Debug\Visual2019.dll
+2020-12-12T23:31:05.0006260+08:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\praja\source\repos\Visual2019\TestResults" (default)
+2020-12-12T23:31:05.0006260+08:00;VSTestExecutionThread;Info;Profile: 
+2020-12-12T23:31:05.0482581+08:00;VSTestExecutionThread;Info;Log file path: C:\Users\praja\source\repos\Visual2019\TestResults\Unnamed project__2020-12-12T233105.log
+2020-12-12T23:31:05.0542419+08:00;Thread#13;Info;Checking activation
+2020-12-12T23:31:05.1130836+08:00;Thread#13;Info;Activated.
+2020-12-12T23:31:05.1130836+08:00;Thread#13;Info;Activation check completed
+2020-12-12T23:31:05.1130836+08:00;Thread#13;Info;Starting test run
+2020-12-12T23:31:05.1499575+08:00;Thread#13;Info;Discovering target: Default
+2020-12-12T23:31:05.1499575+08:00;Thread#13;Info;Discovering tests from assembly: C:\Users\praja\source\repos\Visual2019\Visual2019\bin\Debug\Visual2019.dll
+2020-12-12T23:31:05.4491843+08:00;Thread#13;Info;Discovered tests from assembly: C:\Users\praja\source\repos\Visual2019\Visual2019\bin\Debug\Visual2019.dll
+2020-12-12T23:31:05.4501557+08:00:Test Suite Dump
+2020-12-12T23:31:05.4511520+08:00:#0: Unnamed project/ - 
+2020-12-12T23:31:05.4511520+08:00:#1: Default - 
+2020-12-12T23:31:05.4511520+08:00:#2: Visual2019 - 
+2020-12-12T23:31:05.4511520+08:00:#3: SpecFlowFeature1 - 
+2020-12-12T23:31:05.4790771+08:00:#4: Add two numbers - TestAssembly:Visual2019/Feature:SpecFlowFeature1/Scenario:Add+two+numbers
+2020-12-12T23:31:05.4790771+08:00:End: Test Suite Dump
+2020-12-12T23:31:05.4960589+08:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-12T23:31:05.4970559+08:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-12-12T23:31:05.4970559+08:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-12-12T23:31:05.5000532+08:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-12-12T23:31:05.5000532+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-12-12T23:31:05.5000532+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-12-12T23:31:05.5000532+08:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-12-12T23:31:05.5010535+08:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-12-12T23:31:05.5020157+08:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-12-12T23:31:05.5040446+08:00:Thread #0: creating new test thread executor for Visual2019, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-12-12T23:31:05.5060407+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-12-12T23:31:05.5080317+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-12-12T23:31:05.5090266+08:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2020-12-12T23:31:05.6752871+08:00:Thread#0:T:-> Loading plugin C:\Users\praja\source\repos\Visual2019\Visual2019\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-12-12T23:31:05.6802740+08:00:Thread#0:T:-> Using default config
+2020-12-12T23:31:06.0492565+08:00:Thread#0: Test #4/0 is started on thread #0
+2020-12-12T23:31:06.0692030+08:00:Thread#0:B:Given the first number is 50
+2020-12-12T23:31:09.9630830+08:00:Thread#0:T:error: session not created: This version of ChromeDriver only supports Chrome version 87
+2020-12-12T23:31:09.9640802+08:00:Thread#0:T:Current browser version is 86.0.4240.198 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe (SessionNotCreated)
+2020-12-12T23:31:09.9660750+08:00:Thread#0:B:And the second number is 70
+2020-12-12T23:31:09.9670725+08:00:Thread#0:T:skipped because of previous errors
+2020-12-12T23:31:09.9730567+08:00:Thread#0:B:When the two numbers are added
+2020-12-12T23:31:09.9730567+08:00:Thread#0:T:skipped because of previous errors
+2020-12-12T23:31:09.9740536+08:00:Thread#0:B:Then the result should be 120
+2020-12-12T23:31:09.9740536+08:00:Thread#0:T:skipped because of previous errors
+2020-12-12T23:31:10.0508481+08:00:Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+2020-12-12T23:31:10.0528426+08:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-12T23:31:10.0528426+08:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2020-12-12T23:31:10.0528426+08:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-12-12T23:31:10.0528426+08:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-12-12T23:31:10.0528426+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-12-12T23:31:10.0528426+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-12-12T23:31:10.0528426+08:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-12-12T23:31:10.0528426+08:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-12-12T23:31:10.0528426+08:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2020-12-12T23:31:10.0747839+08:00:Thread#0: Test #4/0 is finished on thread #0 as Failed within 4.0255274 seconds
+2020-12-12T23:31:10.0767784+08:00:Thread#0: Test #4/1 is started on thread #0
+2020-12-12T23:31:10.0777758+08:00:Thread#0:B:Given the first number is 50
+2020-12-12T23:31:11.6964462+08:00:Thread#0:T:error: session not created: This version of ChromeDriver only supports Chrome version 87
+2020-12-12T23:31:11.6964462+08:00:Thread#0:T:Current browser version is 86.0.4240.198 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe (SessionNotCreated)
+2020-12-12T23:31:11.6974435+08:00:Thread#0:B:And the second number is 70
+2020-12-12T23:31:11.6974435+08:00:Thread#0:T:skipped because of previous errors
+2020-12-12T23:31:11.6974435+08:00:Thread#0:B:When the two numbers are added
+2020-12-12T23:31:11.6974435+08:00:Thread#0:T:skipped because of previous errors
+2020-12-12T23:31:11.6984412+08:00:Thread#0:B:Then the result should be 120
+2020-12-12T23:31:11.6984412+08:00:Thread#0:T:skipped because of previous errors
+2020-12-12T23:31:11.6994381+08:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-12T23:31:11.6994381+08:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2020-12-12T23:31:11.6994381+08:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-12-12T23:31:11.6994381+08:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-12-12T23:31:11.6994381+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-12-12T23:31:11.6994381+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-12-12T23:31:11.6994381+08:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-12-12T23:31:11.6994381+08:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-12-12T23:31:11.6994381+08:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2020-12-12T23:31:11.7004357+08:00:Thread#0: Test #4/1 is finished on thread #0 as Failed within 1.6236573 seconds
+2020-12-12T23:31:11.7124034+08:00:Thread#0: Test #4/2 is started on thread #0
+2020-12-12T23:31:11.7134007+08:00:Thread#0:B:Given the first number is 50
+2020-12-12T23:31:13.3177512+08:00:Thread#0:T:error: session not created: This version of ChromeDriver only supports Chrome version 87
+2020-12-12T23:31:13.3177512+08:00:Thread#0:T:Current browser version is 86.0.4240.198 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe (SessionNotCreated)
+2020-12-12T23:31:13.3187489+08:00:Thread#0:B:And the second number is 70
+2020-12-12T23:31:13.3187489+08:00:Thread#0:T:skipped because of previous errors
+2020-12-12T23:31:13.3187489+08:00:Thread#0:B:When the two numbers are added
+2020-12-12T23:31:13.3187489+08:00:Thread#0:T:skipped because of previous errors
+2020-12-12T23:31:13.3197462+08:00:Thread#0:B:Then the result should be 120
+2020-12-12T23:31:13.3197462+08:00:Thread#0:T:skipped because of previous errors
+2020-12-12T23:31:13.3207431+08:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-12T23:31:13.3207431+08:00:Thread#:Scheduler: at the end of normal test queue
+2020-12-12T23:31:13.3207431+08:00:Thread#0:Scheduler: enumerator for thread is at end
+2020-12-12T23:31:13.3207431+08:00:Thread#0:Scheduler: No more tests for thread
+2020-12-12T23:31:13.3227378+08:00:Thread#0: Test #4/2 is finished on thread #0 as Failed within 1.6103344 seconds
+2020-12-12T23:31:13.3576446+08:00:Trying to cancel thread
+2020-12-12T23:31:13.3576446+08:00:Thread cancelled
+2020-12-12T23:31:13.3686150+08:00:Thread#-1:Scheduler: get next test for thread -1
+2020-12-12T23:31:13.3686150+08:00:Thread#:Scheduler: at the end of normal test queue
+2020-12-12T23:31:13.3686150+08:00:Thread#-1:Scheduler: enumerator for thread is at end
+2020-12-12T23:31:13.3755964+08:00;Thread#13;Info;test run finished
+2020-12-12T23:31:13.3755964+08:00;Thread#13;Info;publishing test results
+2020-12-12T23:31:13.3865670+08:00;Thread#13;Info;test results published
+2020-12-12T23:31:13.3875644+08:00;Thread#13;Info;generating reports
+2020-12-12T23:31:13.5381634+08:00;Thread#13;Info;Starting external report generation process
+2020-12-12T23:31:14.8526548+08:00;Thread#13;Info;Successfully generated reports.
+2020-12-12T23:31:14.8536521+08:00;Thread#13;Info;Successfully generated reports
+2020-12-12T23:31:14.8586404+08:00:Total: 1 (test executions: 3)
+2020-12-12T23:31:14.8606348+08:00:Succeeded: 0
+2020-12-12T23:31:14.8606348+08:00:Ignored: 0
+2020-12-12T23:31:14.8606348+08:00:Pending: 0
+2020-12-12T23:31:14.8606348+08:00:Skipped: 0
+2020-12-12T23:31:14.8616327+08:00:Failed: 1
+2020-12-12T23:31:14.8686383+08:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2020-12-12T23:31:14.8686383+08:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\praja\source\repos\Visual2019\TestResults\Unnamed project__2020-12-12T233105.html'
+========== End of log file ==========

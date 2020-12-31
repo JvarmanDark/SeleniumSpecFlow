@@ -1,0 +1,39 @@
+﻿2020-12-31T13:23:39.4599761+08:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-12-31T13:23:39.4599761+08:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.5.8 in Framework clr40 in x86 mode execution started
+2020-12-31T13:23:39.4599761+08:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\praja\source\repos\EdgeWordsSearch_Chrome Working\packages\SpecRun.Runner.3.5.8\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-12-31T13:23:39.4599761+08:00;VSTestExecutionThread;Info;Current UserName: 'PRAJA', MachineName: 'PC86363'
+2020-12-31T13:23:39.5088730+08:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\praja\source\repos\EdgeWordsSearch_Chrome Working\Visual2019\bin\Debug\Visual2019.dll
+2020-12-31T13:23:39.5088730+08:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\praja\source\repos\EdgeWordsSearch_Chrome Working\TestResults" (default)
+2020-12-31T13:23:39.5088730+08:00;VSTestExecutionThread;Info;Profile: 
+2020-12-31T13:23:39.5692799+08:00;VSTestExecutionThread;Info;Log file path: C:\Users\praja\source\repos\EdgeWordsSearch_Chrome Working\TestResults\Unnamed project__2020-12-31T132339.log
+2020-12-31T13:23:39.5782563+08:00;Thread#13;Info;Checking activation
+2020-12-31T13:23:39.6580452+08:00;Thread#13;Info;Activated.
+2020-12-31T13:23:39.6580452+08:00;Thread#13;Info;Activation check completed
+2020-12-31T13:23:39.6580452+08:00;Thread#13;Info;Starting test run
+2020-12-31T13:23:39.7115243+08:00;Thread#13;Info;Discovering target: Default
+2020-12-31T13:23:39.7115243+08:00;Thread#13;Info;Discovering tests from assembly: C:\Users\praja\source\repos\EdgeWordsSearch_Chrome Working\Visual2019\bin\Debug\Visual2019.dll
+2020-12-31T13:23:40.0563205+08:00;Thread#13;Info;Discovered tests from assembly: C:\Users\praja\source\repos\EdgeWordsSearch_Chrome Working\Visual2019\bin\Debug\Visual2019.dll
+2020-12-31T13:23:40.0583157+08:00:Test Suite Dump
+2020-12-31T13:23:40.0598255+08:00:#0: Unnamed project/ - 
+2020-12-31T13:23:40.0598255+08:00:#1: Default - 
+2020-12-31T13:23:40.0598255+08:00:#2: Visual2019 - 
+2020-12-31T13:23:40.0598255+08:00:#3: Google Search - 
+2020-12-31T13:23:40.0918190+08:00:#4: Page Search - TestAssembly:Visual2019/Feature:Google+Search/Scenario:Page+Search
+2020-12-31T13:23:40.0918190+08:00:End: Test Suite Dump
+2020-12-31T13:23:40.1138338+08:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-31T13:23:40.1160704+08:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-12-31T13:23:40.1160704+08:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-12-31T13:23:40.1200732+08:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-12-31T13:23:40.1200732+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-12-31T13:23:40.1200732+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-12-31T13:23:40.1200732+08:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-12-31T13:23:40.1211148+08:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-12-31T13:23:40.1220677+08:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-12-31T13:23:40.1240625+08:00:Thread #0: creating new test thread executor for Visual2019, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-12-31T13:23:40.1261028+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-12-31T13:23:40.1298000+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-12-31T13:23:40.1307974+08:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2020-12-31T13:23:40.3657784+08:00:Thread#0:T:-> Loading plugin C:\Users\praja\source\repos\EdgeWordsSearch_Chrome Working\Visual2019\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-12-31T13:23:40.3733934+08:00:Thread#0:T:-> Using default config
+2020-12-31T13:23:40.8695013+08:00:Thread#0: Test #4/0 is started on thread #0
+2020-12-31T13:23:40.9110069+08:00:Thread#0:B:Given That I am on the Google Search Page

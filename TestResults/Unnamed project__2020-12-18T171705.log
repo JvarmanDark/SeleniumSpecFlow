@@ -1,0 +1,105 @@
+﻿2020-12-18T17:17:05.2806047+08:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-12-18T17:17:05.2806047+08:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.5.8 in Framework clr40 in x86 mode execution started
+2020-12-18T17:17:05.2806047+08:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\praja\source\repos\Visual2019\packages\SpecRun.Runner.3.5.8\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-12-18T17:17:05.2815739+08:00;VSTestExecutionThread;Info;Current UserName: 'PRAJA', MachineName: 'PC86363'
+2020-12-18T17:17:05.3274849+08:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\praja\source\repos\Visual2019\Visual2019\bin\Debug\Visual2019.dll
+2020-12-18T17:17:05.3274849+08:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\praja\source\repos\Visual2019\TestResults" (default)
+2020-12-18T17:17:05.3284744+08:00;VSTestExecutionThread;Info;Profile: 
+2020-12-18T17:17:05.3693385+08:00;VSTestExecutionThread;Info;Log file path: C:\Users\praja\source\repos\Visual2019\TestResults\Unnamed project__2020-12-18T171705.log
+2020-12-18T17:17:05.3743251+08:00;Thread#13;Info;Checking activation
+2020-12-18T17:17:05.4312078+08:00;Thread#13;Info;Activated.
+2020-12-18T17:17:05.4312078+08:00;Thread#13;Info;Activation check completed
+2020-12-18T17:17:05.4312078+08:00;Thread#13;Info;Starting test run
+2020-12-18T17:17:05.4610934+08:00;Thread#13;Info;Discovering target: Default
+2020-12-18T17:17:05.4610934+08:00;Thread#13;Info;Discovering tests from assembly: C:\Users\praja\source\repos\Visual2019\Visual2019\bin\Debug\Visual2019.dll
+2020-12-18T17:17:05.7084320+08:00;Thread#13;Info;Discovered tests from assembly: C:\Users\praja\source\repos\Visual2019\Visual2019\bin\Debug\Visual2019.dll
+2020-12-18T17:17:05.7094295+08:00:Test Suite Dump
+2020-12-18T17:17:05.7104274+08:00:#0: Unnamed project/ - 
+2020-12-18T17:17:05.7104274+08:00:#1: Default - 
+2020-12-18T17:17:05.7104274+08:00:#2: Visual2019 - 
+2020-12-18T17:17:05.7114241+08:00:#3: Google Search - 
+2020-12-18T17:17:05.7363581+08:00:#4: Page Search - TestAssembly:Visual2019/Feature:Google+Search/Scenario:Page+Search
+2020-12-18T17:17:05.7363581+08:00:End: Test Suite Dump
+2020-12-18T17:17:05.7533124+08:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-18T17:17:05.7543097+08:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-12-18T17:17:05.7543097+08:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-12-18T17:17:05.7573025+08:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-12-18T17:17:05.7573025+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-12-18T17:17:05.7573025+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-12-18T17:17:05.7573025+08:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-12-18T17:17:05.7582993+08:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-12-18T17:17:05.7593223+08:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-12-18T17:17:05.7612920+08:00:Thread #0: creating new test thread executor for Visual2019, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-12-18T17:17:05.7622893+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-12-18T17:17:05.7642840+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-12-18T17:17:05.7652806+08:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2020-12-18T17:17:05.9139151+08:00:Thread#0:T:-> Loading plugin C:\Users\praja\source\repos\Visual2019\Visual2019\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-12-18T17:17:05.9189012+08:00:Thread#0:T:-> Using default config
+2020-12-18T17:17:06.2460246+08:00:Thread#0: Test #4/0 is started on thread #0
+2020-12-18T17:17:06.2649744+08:00:Thread#0:B:Given That I am on the Google Search Page
+2020-12-18T17:17:06.3437630+08:00:Thread#0:T:error: Object reference not set to an instance of an object.
+2020-12-18T17:17:06.3447598+08:00:Thread#0:B:When I Search for Edgewords
+2020-12-18T17:17:06.3457580+08:00:Thread#0:T:skipped because of previous errors
+2020-12-18T17:17:06.3478118+08:00:Thread#0:B:Then I expect to see Edgewords on the first page
+2020-12-18T17:17:06.3478118+08:00:Thread#0:T:skipped because of previous errors
+2020-12-18T17:17:06.3936303+08:00:Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+2020-12-18T17:17:06.3946264+08:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-18T17:17:06.3946264+08:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2020-12-18T17:17:06.3946264+08:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-12-18T17:17:06.3946264+08:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-12-18T17:17:06.3946264+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-12-18T17:17:06.3946264+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-12-18T17:17:06.3946264+08:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-12-18T17:17:06.3946264+08:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-12-18T17:17:06.3946264+08:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2020-12-18T17:17:06.4026060+08:00:Thread#0: Test #4/0 is finished on thread #0 as Failed within 0.1555848 seconds
+2020-12-18T17:17:06.4036026+08:00:Thread#0: Test #4/1 is started on thread #0
+2020-12-18T17:17:06.4045996+08:00:Thread#0:B:Given That I am on the Google Search Page
+2020-12-18T17:17:06.4055980+08:00:Thread#0:T:error: Object reference not set to an instance of an object.
+2020-12-18T17:17:06.4055980+08:00:Thread#0:B:When I Search for Edgewords
+2020-12-18T17:17:06.4055980+08:00:Thread#0:T:skipped because of previous errors
+2020-12-18T17:17:06.4055980+08:00:Thread#0:B:Then I expect to see Edgewords on the first page
+2020-12-18T17:17:06.4055980+08:00:Thread#0:T:skipped because of previous errors
+2020-12-18T17:17:06.4055980+08:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-18T17:17:06.4055980+08:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2020-12-18T17:17:06.4055980+08:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-12-18T17:17:06.4055980+08:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-12-18T17:17:06.4055980+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-12-18T17:17:06.4055980+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-12-18T17:17:06.4055980+08:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-12-18T17:17:06.4055980+08:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-12-18T17:17:06.4066276+08:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2020-12-18T17:17:06.4066276+08:00:Thread#0: Test #4/1 is finished on thread #0 as Failed within 0.003025 seconds
+2020-12-18T17:17:06.4066276+08:00:Thread#0: Test #4/2 is started on thread #0
+2020-12-18T17:17:06.4066276+08:00:Thread#0:B:Given That I am on the Google Search Page
+2020-12-18T17:17:06.4076200+08:00:Thread#0:T:error: Object reference not set to an instance of an object.
+2020-12-18T17:17:06.4076200+08:00:Thread#0:B:When I Search for Edgewords
+2020-12-18T17:17:06.4076200+08:00:Thread#0:T:skipped because of previous errors
+2020-12-18T17:17:06.4076200+08:00:Thread#0:B:Then I expect to see Edgewords on the first page
+2020-12-18T17:17:06.4076200+08:00:Thread#0:T:skipped because of previous errors
+2020-12-18T17:17:06.4076200+08:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-18T17:17:06.4085891+08:00:Thread#:Scheduler: at the end of normal test queue
+2020-12-18T17:17:06.4085891+08:00:Thread#0:Scheduler: enumerator for thread is at end
+2020-12-18T17:17:06.4085891+08:00:Thread#0:Scheduler: No more tests for thread
+2020-12-18T17:17:06.4085891+08:00:Thread#0: Test #4/2 is finished on thread #0 as Failed within 0.0019615 seconds
+2020-12-18T17:17:06.4355173+08:00:Trying to cancel thread
+2020-12-18T17:17:06.4355173+08:00:Thread cancelled
+2020-12-18T17:17:06.4395330+08:00:Thread#-1:Scheduler: get next test for thread -1
+2020-12-18T17:17:06.4395330+08:00:Thread#:Scheduler: at the end of normal test queue
+2020-12-18T17:17:06.4395330+08:00:Thread#-1:Scheduler: enumerator for thread is at end
+2020-12-18T17:17:06.4435321+08:00;Thread#13;Info;test run finished
+2020-12-18T17:17:06.4435321+08:00;Thread#13;Info;publishing test results
+2020-12-18T17:17:06.4524718+08:00;Thread#13;Info;test results published
+2020-12-18T17:17:06.4524718+08:00;Thread#13;Info;generating reports
+2020-12-18T17:17:06.5332560+08:00;Thread#13;Info;Starting external report generation process
+2020-12-18T17:17:07.7779659+08:00;Thread#13;Info;Successfully generated reports.
+2020-12-18T17:17:07.7799610+08:00;Thread#13;Info;Successfully generated reports
+2020-12-18T17:17:07.7849736+08:00:Total: 1 (test executions: 3)
+2020-12-18T17:17:07.7859451+08:00:Succeeded: 0
+2020-12-18T17:17:07.7869678+08:00:Ignored: 0
+2020-12-18T17:17:07.7869678+08:00:Pending: 0
+2020-12-18T17:17:07.7869678+08:00:Skipped: 0
+2020-12-18T17:17:07.7879398+08:00:Failed: 1
+2020-12-18T17:17:07.7969444+08:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2020-12-18T17:17:07.7969444+08:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\praja\source\repos\Visual2019\TestResults\Unnamed project__2020-12-18T171705.html'
+========== End of log file ==========
