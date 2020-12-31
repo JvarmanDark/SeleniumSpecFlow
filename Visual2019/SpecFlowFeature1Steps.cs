@@ -78,7 +78,8 @@ namespace Visual2019
             //ChromeDriverSetup
             options.AddArgument("--disable-extensions");
             options.AddArgument("--start-maximized");
-            options.AddAdditionalCapability("useAutomationExtension", false);
+           
+            //options.AddAdditionalCapability("useAutomationExtension", false);
 
             //Launch URL in Chrome
             driver = new ChromeDriver(options);
