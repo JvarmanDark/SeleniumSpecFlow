@@ -52,14 +52,23 @@ namespace Visual2019
             documentsLibrary.Click();
             Thread.Sleep(20000);
 
-
             //Verify two tabs are open
-            Assert.AreEqual(2, driver.WindowHandles.Count);          
-           
-            //Close First tab
+            Assert.AreEqual(2, driver.WindowHandles.Count);
+
+            //Switch to second tab
+            var secondWindowHandle = driver.WindowHandles[1];
+            driver.SwitchTo().Window(secondWindowHandle);
+
+            //Verify Documents Library is displayed
+            IWebElement verifyDocumentsLibrary = ObjWebElement("od-ItemsScopeItemContent-header", 2, "Documents");
+            String libraryTitle = verifyDocumentsLibrary.Text;
+            Assert.IsTrue(libraryTitle.Contains("Documents"));
+
+                                          
+            //Close First Window
             driver.Close();
 
-            //Keep the window handlers in arrays and then manipulate the array
+            //Verify 1 window is still open
             var mainWindowHandle = driver.WindowHandles[0];
             Assert.IsTrue(!string.IsNullOrEmpty(mainWindowHandle));
 
@@ -104,7 +113,7 @@ namespace Visual2019
             //Enter Password
             IWebElement password = ObjWebElement("i0118", 3);
             //To be encryted 
-            password.SendKeys("Dong1@rsted");
+            password.SendKeys("***");
 
             //Sign In
             IWebElement signIn = ObjWebElement("idSIButton9", 3);

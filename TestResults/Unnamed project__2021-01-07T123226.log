@@ -1,0 +1,43 @@
+﻿2021-01-07T12:32:26.0463772+08:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-01-07T12:32:26.0463772+08:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.5.8 in Framework clr40 in x86 mode execution started
+2021-01-07T12:32:26.0463772+08:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\praja\source\repos\Selenium SpecFlow\packages\SpecRun.Runner.3.5.8\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-01-07T12:32:26.0473740+08:00;VSTestExecutionThread;Info;Current UserName: 'PRAJA', MachineName: 'PC86363'
+2021-01-07T12:32:26.0832770+08:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\praja\source\repos\Selenium SpecFlow\Visual2019\bin\Debug\Visual2019.dll
+2021-01-07T12:32:26.0842744+08:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\praja\source\repos\Selenium SpecFlow\TestResults" (default)
+2021-01-07T12:32:26.0842744+08:00;VSTestExecutionThread;Info;Profile: 
+2021-01-07T12:32:26.1371352+08:00;VSTestExecutionThread;Info;Log file path: C:\Users\praja\source\repos\Selenium SpecFlow\TestResults\Unnamed project__2021-01-07T123226.log
+2021-01-07T12:32:26.1461094+08:00;Thread#15;Info;Checking activation
+2021-01-07T12:32:26.2398593+08:00;Thread#15;Info;Activated.
+2021-01-07T12:32:26.2398593+08:00;Thread#15;Info;Activation check completed
+2021-01-07T12:32:26.2398593+08:00;Thread#15;Info;Starting test run
+2021-01-07T12:32:26.2937149+08:00;Thread#15;Info;Discovering target: Default
+2021-01-07T12:32:26.2937149+08:00;Thread#15;Info;Discovering tests from assembly: C:\Users\praja\source\repos\Selenium SpecFlow\Visual2019\bin\Debug\Visual2019.dll
+2021-01-07T12:32:26.7644555+08:00;Thread#15;Info;Discovered tests from assembly: C:\Users\praja\source\repos\Selenium SpecFlow\Visual2019\bin\Debug\Visual2019.dll
+2021-01-07T12:32:26.7654529+08:00:Test Suite Dump
+2021-01-07T12:32:26.7674494+08:00:#0: Unnamed project/ - 
+2021-01-07T12:32:26.7674494+08:00:#1: Default - 
+2021-01-07T12:32:26.7674494+08:00:#2: Visual2019 - 
+2021-01-07T12:32:26.7674494+08:00:#3: Launch Team's Site - 
+2021-01-07T12:32:26.7993625+08:00:#4: Launch Team Site - TestAssembly:Visual2019/Feature:Launch+Team%27s+Site/Scenario:Launch+Team+Site
+2021-01-07T12:32:26.7993625+08:00:End: Test Suite Dump
+2021-01-07T12:32:26.8173147+08:00:Thread#0:Scheduler: get next test for thread 0
+2021-01-07T12:32:26.8193096+08:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2021-01-07T12:32:26.8193096+08:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-01-07T12:32:26.8223352+08:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-01-07T12:32:26.8223352+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-01-07T12:32:26.8223352+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2021-01-07T12:32:26.8223352+08:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-01-07T12:32:26.8232988+08:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-01-07T12:32:26.8232988+08:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-01-07T12:32:26.8253282+08:00:Thread #0: creating new test thread executor for Visual2019, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-01-07T12:32:26.8272876+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2021-01-07T12:32:26.8332714+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2021-01-07T12:32:26.8342688+08:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2021-01-07T12:32:27.0656515+08:00:Thread#0:T:-> Loading plugin C:\Users\praja\source\repos\Selenium SpecFlow\Visual2019\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-01-07T12:32:27.0756245+08:00:Thread#0:T:-> Using default config
+2021-01-07T12:32:27.5473618+08:00:Thread#0: Test #4/0 is started on thread #0
+2021-01-07T12:32:27.5752875+08:00:Thread#0:B:Given I have launched team' site
+2021-01-07T12:34:31.5834486+08:00:Thread#0:T:done: DecafyingLibrariySteps.GivenIHaveLaunchedTeamSite() (123.9s)
+2021-01-07T12:34:31.5894272+08:00:Thread#0:B:When I select documents library in site contents
+2021-01-07T12:34:46.7371301+08:00:Thread#0:T:done: DecafyingLibrariySteps.WhenISelectDocumentsLibraryInSiteContents() (15.1s)
+2021-01-07T12:34:46.7406336+08:00:Thread#0:B:Then Document Library is launched

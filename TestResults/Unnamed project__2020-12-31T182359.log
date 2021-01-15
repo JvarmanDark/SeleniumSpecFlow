@@ -1,0 +1,70 @@
+﻿2020-12-31T18:23:59.9484933+08:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-12-31T18:23:59.9484933+08:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.5.8 in Framework clr40 in x86 mode execution started
+2020-12-31T18:23:59.9484933+08:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\praja\source\repos\Selenium SpecFlow\packages\SpecRun.Runner.3.5.8\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-12-31T18:23:59.9484933+08:00;VSTestExecutionThread;Info;Current UserName: 'PRAJA', MachineName: 'PC86363'
+2020-12-31T18:23:59.9834000+08:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\praja\source\repos\Selenium SpecFlow\Visual2019\bin\Debug\Visual2019.dll
+2020-12-31T18:23:59.9844309+08:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\praja\source\repos\Selenium SpecFlow\TestResults" (default)
+2020-12-31T18:23:59.9844309+08:00;VSTestExecutionThread;Info;Profile: 
+2020-12-31T18:24:00.0272823+08:00;VSTestExecutionThread;Info;Log file path: C:\Users\praja\source\repos\Selenium SpecFlow\TestResults\Unnamed project__2020-12-31T182359.log
+2020-12-31T18:24:00.0322691+08:00;Thread#13;Info;Checking activation
+2020-12-31T18:24:00.0821353+08:00;Thread#13;Info;Activated.
+2020-12-31T18:24:00.0821353+08:00;Thread#13;Info;Activation check completed
+2020-12-31T18:24:00.0821353+08:00;Thread#13;Info;Starting test run
+2020-12-31T18:24:00.1100851+08:00;Thread#13;Info;Discovering target: Default
+2020-12-31T18:24:00.1100851+08:00;Thread#13;Info;Discovering tests from assembly: C:\Users\praja\source\repos\Selenium SpecFlow\Visual2019\bin\Debug\Visual2019.dll
+2020-12-31T18:24:00.3504164+08:00;Thread#13;Info;Discovered tests from assembly: C:\Users\praja\source\repos\Selenium SpecFlow\Visual2019\bin\Debug\Visual2019.dll
+2020-12-31T18:24:00.3514140+08:00:Test Suite Dump
+2020-12-31T18:24:00.3524425+08:00:#0: Unnamed project/ - 
+2020-12-31T18:24:00.3524425+08:00:#1: Default - 
+2020-12-31T18:24:00.3524425+08:00:#2: Visual2019 - 
+2020-12-31T18:24:00.3524425+08:00:#3: Launch Team's Site - 
+2020-12-31T18:24:00.3763782+08:00:#4: Launch Team Site - TestAssembly:Visual2019/Feature:Launch+Team%27s+Site/Scenario:Launch+Team+Site
+2020-12-31T18:24:00.3763782+08:00:End: Test Suite Dump
+2020-12-31T18:24:00.4033174+08:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-31T18:24:00.4043147+08:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-12-31T18:24:00.4043147+08:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-12-31T18:24:00.4073070+08:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-12-31T18:24:00.4073070+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-12-31T18:24:00.4073070+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-12-31T18:24:00.4073070+08:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-12-31T18:24:00.4082613+08:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-12-31T18:24:00.4082613+08:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-12-31T18:24:00.4102983+08:00:Thread #0: creating new test thread executor for Visual2019, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-12-31T18:24:00.4122934+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-12-31T18:24:00.4132792+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-12-31T18:24:00.4142770+08:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2020-12-31T18:24:00.5598866+08:00:Thread#0:T:-> Loading plugin C:\Users\praja\source\repos\Selenium SpecFlow\Visual2019\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-12-31T18:24:00.5638786+08:00:Thread#0:T:-> Using default config
+2020-12-31T18:24:00.8760109+08:00:Thread#0: Test #4/0 is started on thread #0
+2020-12-31T18:24:00.8949819+08:00:Thread#0:B:Given I have launched team' site
+2020-12-31T18:26:05.7606804+08:00:Thread#0:T:done: DecafyingLibrariySteps.GivenIHaveLaunchedTeamSite() (124.8s)
+2020-12-31T18:26:05.7686475+08:00:Thread#0:B:When I select documents library in site contents
+2020-12-31T18:26:20.9682474+08:00:Thread#0:T:done: DecafyingLibrariySteps.WhenISelectDocumentsLibraryInSiteContents() (15.2s)
+2020-12-31T18:26:20.9791378+08:00:Thread#0:B:Then Document Library is launched
+2020-12-31T18:26:52.2480014+08:00:Thread#0:T:done: DecafyingLibrariySteps.ThenDocumentLibraryIsLaunched() (31.3s)
+2020-12-31T18:26:52.2610025+08:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-31T18:26:52.2610025+08:00:Thread#:Scheduler: at the end of normal test queue
+2020-12-31T18:26:52.2610025+08:00:Thread#0:Scheduler: enumerator for thread is at end
+2020-12-31T18:26:52.2610025+08:00:Thread#0:Scheduler: No more tests for thread
+2020-12-31T18:26:52.2719393+08:00:Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 171.3949329 seconds
+2020-12-31T18:26:52.3018914+08:00:Trying to cancel thread
+2020-12-31T18:26:52.3028749+08:00:Thread cancelled
+2020-12-31T18:26:52.3068779+08:00:Thread#-1:Scheduler: get next test for thread -1
+2020-12-31T18:26:52.3068779+08:00:Thread#:Scheduler: at the end of normal test queue
+2020-12-31T18:26:52.3068779+08:00:Thread#-1:Scheduler: enumerator for thread is at end
+2020-12-31T18:26:52.3078755+08:00;Thread#13;Info;test run finished
+2020-12-31T18:26:52.3078755+08:00;Thread#13;Info;publishing test results
+2020-12-31T18:26:52.3138623+08:00;Thread#13;Info;test results published
+2020-12-31T18:26:52.3148263+08:00;Thread#13;Info;generating reports
+2020-12-31T18:26:52.3936178+08:00;Thread#13;Info;Starting external report generation process
+2020-12-31T18:26:53.4049794+08:00;Thread#13;Info;Successfully generated reports.
+2020-12-31T18:26:53.4059513+08:00;Thread#13;Info;Successfully generated reports
+2020-12-31T18:26:53.4119549+08:00:Total: 1
+2020-12-31T18:26:53.4129515+08:00:Succeeded: 1
+2020-12-31T18:26:53.4129515+08:00:Ignored: 0
+2020-12-31T18:26:53.4129515+08:00:Pending: 0
+2020-12-31T18:26:53.4129515+08:00:Skipped: 0
+2020-12-31T18:26:53.4139546+08:00:Failed: 0
+2020-12-31T18:26:53.4209430+08:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2020-12-31T18:26:53.4209430+08:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\praja\source\repos\Selenium SpecFlow\TestResults\Unnamed project__2020-12-31T182359.html'
+========== End of log file ==========
